@@ -31,7 +31,7 @@ def predict_sentiment(input_review):
 
 def main():
     print("\n-------------------------------------------------------------------------------------")
-    user_review = input("Enter the review of the restaurant:  ")
+    user_review = input("Enter the review of the restaurant: ")
     predicition = predict_sentiment(user_review)
     print("-------------------------------------------------------------------------------------")
 
